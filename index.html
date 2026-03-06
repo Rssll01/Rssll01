@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Creative Developer">
+    <title>Rosselle Anne's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="fixed-header">
+        <div class="container header-container">
+            <a href="#" class="logo">Rosselle Anne<span class="dot"></span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero active">
+            <div class="container hero-content">
+                <span class="eyebrow fade-in">Hello, I'm </span>
+                <h1 class="headline fade-in delay-1">Rosselle Anne <br> M. Penafiel</h1>
+                <p class="subtitle fade-in delay-2">BS Information Technology 3rd Year Student & Aspiring Developer.</p>
+                <div class="cta-group fade-in delay-3">
+                    <a href="#work" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="glow-orb orb-1"></div>
+                <div class="glow-orb orb-2"></div>
+            </div>
+        </section>
+
+        <section id="work" class="section work">
+            <div class="container">
+                <h2 class="section-title fade-up">Selected Works</h2>
+                <div class="projects-grid">
+
+                    <!-- 
+                        PASTE YOUR PROJECTS BELOW THIS LINE 
+                        Copy the <article> block to add more projects.
+                    -->
+
+                    <!-- Project 1: Image Based -->
+                    <article class="project-card fade-up">
+                        <div class="card-image">
+
+                            <img src="assets/images/digital-design.jpg" alt="Digital Design" class="project-img">
+                        </div>
+                        <div class="card-content">
+                            <h3>Digital Design</h3>
+                            <p>Creative digital design projects showcasing visual storytelling.</p>
+                            <div class="tech-stack">
+                                <span>Graphic Design</span>
+                                <span>Storytelling</span>
+                            </div>
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Video Based -->
+                    <article class="project-card fade-up delay-1">
+                        <div class="card-media">
+                            <!-- Video Element -->
+                            <video controls class="project-video">
+                                <source src="assets/videos/project-video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Video Advertisement</h3>
+                            <p>A creative video showcasing dynamic editing and strong brand identity.</p>
+                            <div class="tech-stack">
+                                <span>Video Editing</span>
+                                <span>Brand</span>
+                            </div>
+                            <a href="#" class="link-arrow">Watch Video &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Promotional Image -->
+                    <article class="project-card fade-up delay-2">
+                        <div class="card-image">
+                            <img src="assets/images/1.png" alt="Promotional Design" class="project-img">
+                        </div>
+                        <div class="card-content">
+                            <h3>Promotional Design</h3>
+                            <p>Eye-catching promotional graphics designed for maximum impact.</p>
+                            <div class="tech-stack">
+                                <span>Graphics</span>
+                                <span>Marketing</span>
+                            </div>
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Digital Campaign -->
+                    <article class="project-card fade-up delay-3">
+                        <div class="card-image">
+                            <img src="assets/images/Rosselle.png" alt="Digital Campaign" class="project-img">
+                        </div>
+                        <div class="card-content">
+                            <h3>Digital Campaign</h3>
+                            <p>Strategic digital campaign combining marketing insights with creative visuals.</p>
+                            <div class="tech-stack">
+                                <span>Marketing</span>
+                                <span>Digital Strategy</span>
+                            </div>
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- End of Project List -->
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title fade-up">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category fade-up">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React</li>
+                            <li>HTML5 / CSS3</li>
+                            <li>TypeScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category fade-up delay-1">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>AWS</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category fade-up delay-2">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Git / GitHub</li>
+                            <li>VS Code</li>
+                            <li>Postman</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category fade-up delay-3">
+                        <h3>Design & Editing</h3>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Video Editing</li>
+                            <li>Digital Design</li>
+                            <li>Canva</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container about-grid">
+                <div class="about-text fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm Rosselle, a 3rd Year BS Information Technology student with a passion for building websites.
+                        I am currently honing my skills in web development and design, exploring how to create
+                        user-friendly and visually appealing digital experiences.</p>
+                    <p>Fast-forward to today, I am focusing on my studies and working on personal projects to build my
+                        portfolio. My main goal is to create accessible, inclusive products and digital experiences.</p>
+
+
+                </div>
+                <div class="about-visual fade-up delay-1">
+                    <div class="profile-frame">
+                        <img src="assets/images/profile-pic.jpg" alt="Rosselle Anne M. Penafiel" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container narrow">
+                <h2 class="section-title center fade-up">Get In Touch</h2>
+                <p class="center-text fade-up delay-1">I am currently open to new opportunities and collaborations.
+                    Whether you have a question or just want to connect, feel free to reach out!</p>
+
+                <div class="contact-details fade-up delay-2">
+                    <p><strong>Email:</strong> rosselleanne.penafiel@evsu.edu.ph</p>
+                    <p><strong>Facebook:</strong> Rosselle Anne Mindol Penafiel</p>
+                    <p><strong>Instagram:</strong> <a href="https://instagram.com/rssll_anne"
+                            target="_blank">@rssll_anne</a></p>
+                </div>
+
+                <div class="contact-actions fade-up delay-3">
+                    <a href="https://www.facebook.com/rosselleanne.m.penafiel.5/directory_contact_info" target="_blank"
+                        class="btn btn-primary big">Say Hello</a>
+                    <a href="mailto:rosselleanne.penafiel@evsu.edu.ph" class="btn btn-outline big">Send Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/search/top?q=Rosselle+Anne+Mindol+Penafiel" target="_blank"
+                    aria-label="Facebook">FB</a>
+                <a href="https://instagram.com/rssll_anne" target="_blank" aria-label="Instagram">IG</a>
+                <a href="mailto:rosselleanne.penafiel@evsu.edu.ph" aria-label="Email">EM</a>
+            </div>
+            <p class="copyright">&copy; 2026 Built by Rosselle Anne M. Penafiel.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal (Lightbox) -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div id="modal-container">
+                <!-- Content injected via JS -->
+            </div>
+            <div class="modal-details">
+                <h3 id="modal-title">Project Title</h3>
+                <p id="modal-description">Project description goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
